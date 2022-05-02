@@ -387,10 +387,10 @@ retrieveComments();
 function sendSuggestions(suggestName, suggestMail, suggestMessage) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "amorechoco72@gmail.com",
+        Username: "zerksis5253@gmail.com",
         Password: "kahwnmzclecrcykn",
-        To: 'amorechoco72@gmail.com',
-        From: 'amorechoco72@gmail.com',
+        To: 'zerksis5253@gmail.com',
+        From: 'zerksis5253@gmail.com',
         Subject: `You have received a suggestion from ${suggestName}`,
         Body: `
         <table style="border: 1px solid #dddd; border-collapse: collapse; margin: 3px; width: 50%; text-align: center;">
@@ -417,9 +417,9 @@ function sendMail(arrayNames, arrayPrices, arrayQuantities, totalPrice, userName
     // to the maker
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "amorechoco72@gmail.com",
+        Username: "zerksis5253@gmail.com",
         Password: "kahwnmzclecrcykn",
-        To: 'amorechoco72@gmail.com',
+        To: 'zerksis5253@gmail.com',
         From: `${userEmail}`,
         Subject: `You have received an order from ${userName}`,
         Body: `
@@ -446,10 +446,10 @@ function sendMail(arrayNames, arrayPrices, arrayQuantities, totalPrice, userName
     // to the orderer
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "amorechoco72@gmail.com",
+        Username: "zerksis5253@gmail.com",
         Password: "kahwnmzclecrcykn",
         To: `${userEmail}`,
-        From: "amorechoco72@gmail.com",
+        From: "zerksis5253@gmail.com",
         Subject: `You have ordered the following:-`,
         Body: `
         <table style="border: 1px solid #dddd; border-collapse: collapse; margin: 3px; width: 100%; text-align: center;">
